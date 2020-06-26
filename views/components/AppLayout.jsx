@@ -4,7 +4,7 @@ class AppLayout extends React.Component {
     render() {
         return(
         
-        <html>
+        <html style={{scrollBehavior:"smooth"}}>
             <head>
             
            
