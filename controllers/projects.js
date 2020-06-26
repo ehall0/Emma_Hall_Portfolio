@@ -16,36 +16,36 @@ projectController.get('/', (req,res)=>{
 projectController.get('/new', (req, res)=>{
     res.render('New');
 });
-//////Seed Route///////
-projectController.get('/seed', (req,res)=> {
-    Project.create([
+// //////Seed Route///////
+// projectController.get('/seed', (req,res)=> {
+//     Project.create([
 
-        {
-            title:"CES Shop",
-            code: "https://github.com/chrisungerjs/project_3_frontend",
-            deployment: "https://ces-store.netlify.app/",
-            image: "https://files.slack.com/files-pri/T0351JZQ0-F0162ULF9EX/image.png",
-            description:"Mock e-commerce shop with user login/ admin login, and shopping cart, made with express and react"
-        },
-        {
-            title:"Goal Tracker",
-            code: "https://github.com/ehall0/Goal_Tracker",
-            deployment: "https://emmahall-project2.herokuapp.com/goals/",
-            image: "https://files.slack.com/files-pri/T0351JZQ0-F0162U9E2AX/image.png",
-            "resource_uri": "/api/v1/project/4/",
-            description:"Track your goals easily by sorting them by daily/monthly/yearly goals. Users have the ability to login and edit/delete/create goals on their tracker. Users can also view which goals are complete or in progress, as well as a total completion percentage."
-        },
-        {
-            title:"Math Mountain",
-            code: "https://github.com/ehall0/Math_Mountain",
-            deployment: "https://ehall0.github.io/Math_Mountain/",
-            image: "https://github.com/ehall0/Math_Mountain/raw/master/Screenshot_2020-05-06_14-58-52.png",
-            description:"A simple math game meant for a young audencience looking to improve their basic math skills while having fun! Whoever answers all questions first will reach the top of the mountain first!"
-        }
-    ], (error, newProjects) => {
-        res.redirect('/projects')
-    })
-})
+//         {
+//             title:"CES Shop",
+//             code: "https://github.com/chrisungerjs/project_3_frontend",
+//             deployment: "https://ces-store.netlify.app/",
+//             image: "https://files.slack.com/files-pri/T0351JZQ0-F0162ULF9EX/image.png",
+//             description:"Mock e-commerce shop with user login/ admin login, and shopping cart, made with express and react"
+//         },
+//         {
+//             title:"Goal Tracker",
+//             code: "https://github.com/ehall0/Goal_Tracker",
+//             deployment: "https://emmahall-project2.herokuapp.com/goals/",
+//             image: "https://files.slack.com/files-pri/T0351JZQ0-F0162U9E2AX/image.png",
+//             "resource_uri": "/api/v1/project/4/",
+//             description:"Track your goals easily by sorting them by daily/monthly/yearly goals. Users have the ability to login and edit/delete/create goals on their tracker. Users can also view which goals are complete or in progress, as well as a total completion percentage."
+//         },
+//         {
+//             title:"Math Mountain",
+//             code: "https://github.com/ehall0/Math_Mountain",
+//             deployment: "https://ehall0.github.io/Math_Mountain/",
+//             image: "https://github.com/ehall0/Math_Mountain/raw/master/Screenshot_2020-05-06_14-58-52.png",
+//             description:"A simple math game meant for a young audencience looking to improve their basic math skills while having fun! Whoever answers all questions first will reach the top of the mountain first!"
+//         }
+//     ], (error, newProjects) => {
+//         res.redirect('/projects')
+//     })
+// })
 
 ///////Delete Route//////
 
