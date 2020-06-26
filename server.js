@@ -8,8 +8,8 @@ const Project = require('./models/projects.js');
 const methodOverride = require('method-override');
 const projectsController = require('./controllers/projects.js');
 require('dotenv').config()
-const port = process.env.PORT || 3000;
-
+const PORT = process.env.PORT || 3000;
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio'
 //////Middleware///////
 app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
@@ -21,7 +21,7 @@ app.use(methodOverride('_method'));
 app.use('/projects', projectsController);
 
 //mongoose connection
-mongoose.connect(process.env.MONGOURI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true});
+mongoose.connect( MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: true});
 
 db.once('open', ()=> {
     show('connected to mongo');
@@ -30,6 +30,6 @@ db.once('open', ()=> {
 
 
 //////Listening on Port//////
-app.listen(port, ()=>{
-    console.log('listening on: ' + port);
+app.listen(PORT, ()=>{
+    console.log('listening on: ' + PORT);
 });
