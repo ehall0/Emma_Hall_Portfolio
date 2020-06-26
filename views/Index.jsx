@@ -68,7 +68,7 @@ class Index extends React.Component {
                       
                           <a href={project.code} style={{backgroundImage:"linear-gradient(to bottom right, rgb(68, 68, 248), rgb(158, 49, 158))", border:"none", fontWeight:"bold"}}className="btn btn-primary">View Code <img style={{width:'1.2rem',height:"auto"}} src="https://img.icons8.com/fluent/240/000000/github.png"/></a>
                           <a  style={{backgroundImage:"linear-gradient(to bottom right, rgb(68, 68, 248), rgb(158, 49, 158))", border:"none", fontWeight:"bold", marginLeft:"1rem"}}href={project.deployment} className="btn btn-primary">View App</a>
-                          <form action ={`/projectss/${project._id}?_method=DELETE`} method ="post">
+                          <form action ={`/projects/${project._id}?_method=DELETE`} method ="post">
                                     <input className="btn btn-danger" type="submit" value="delete"/>
                                   </form>
 
