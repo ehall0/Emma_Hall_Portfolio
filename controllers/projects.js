@@ -24,14 +24,14 @@ projectController.get('/seed', (req,res)=> {
             title:"CES Shop",
             code: "https://github.com/chrisungerjs/project_3_frontend",
             deployment: "https://ces-store.netlify.app/",
-            image: "/home/osboxes/Portfolio/Emma_Hall_Portfolio/ces.png",
+            image: "https://github.com/ehall0/Emma_Hall_Portfolio/blob/master/Screenshot_2020-06-26_17-43-42.png?raw=true",
             description:"Mock e-commerce shop with user login/ admin login, and shopping cart, made with express and react"
         },
         {
             title:"Goal Tracker",
             code: "https://github.com/ehall0/Goal_Tracker",
             deployment: "https://emmahall-project2.herokuapp.com/goals/",
-            image: "/home/osboxes/Portfolio/Emma_Hall_Portfolio/goal.png",
+            image: "https://github.com/ehall0/Emma_Hall_Portfolio/raw/master/Screenshot_2020-06-26_17-42-26.png",
             description:"Track your goals easily by sorting them by daily/monthly/yearly goals. Users have the ability to login and edit/delete/create goals on their tracker. Users can also view which goals are complete or in progress, as well as a total completion percentage."
         },
         {
