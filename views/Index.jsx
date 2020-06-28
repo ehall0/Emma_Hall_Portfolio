@@ -16,7 +16,7 @@ class Index extends React.Component {
               <br/>
                 <h1 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"7rem", marginTop:"6rem"}}>Emma Hall</h1>
                 <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"2rem"}}>Full-Stack Web Developer | Austin, Tx</h2>
-                <img style={{filter: "grayscale(100%)" ,width: "13rem", borderRadius:"100%", display:"block", marginLeft:"auto", marginRight:"auto", marginTop:"1.5rem", marginBottom:"1.5rem"}} src="https://ca.slack-edge.com/T0351JZQ0-U0101Q2050T-c604c198d01f-512" alt="Emma Hall" />
+                <img style={{filter: "grayscale(100%)" ,width: "15rem", borderRadius:"100%", display:"block", marginLeft:"auto", marginRight:"auto", marginTop:"1.5rem", marginBottom:"1.5rem"}} src="https://ca.slack-edge.com/T0351JZQ0-U0101Q2050T-c604c198d01f-512" alt="Emma Hall" />
                 <div style={{width:"30rem", display:"block",marginRight:"auto",marginLeft:"auto"}}>
                      <p style ={{color:"whitesmoke", textDecoration:"none", fontSize:"1.2rem",fontWeight:"bold", fontFamily:'Raleway' }}>Hi! As a solutions-driven software developer, I take on problems with a creative mindset to deliver efficient and effective solutions. Check out my <a style={{color:"rgba(255, 72, 246)", textDecoration:"none",fontSize:"1.4rem", fontWeight:"bold"}} href="#section3">projects</a> !</p>
                 </div>
@@ -24,7 +24,7 @@ class Index extends React.Component {
               <section id="section2">
                 <br/>
                 <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"3rem",fontweight:"bold", marginTop:"3rem"}}>Skills</h2>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style={{marginTop:"2.5rem", marginBottom:"4rem"}}>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style={{marginTop:"2.5rem"}}>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                   <img style={{width:'10rem',height:"auto"}}src="https://img.icons8.com/dotty/250/react.png"/>
@@ -57,7 +57,7 @@ class Index extends React.Component {
             </div>
             </section>
             <section id="section3">
-            <br />
+            <br/>
             <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"3rem",fontweight:"bold", marginTop:"3rem"}}>Projects</h2>
             <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"1.5rem",fontweight:"bold", marginBottom:"3rem"}}>Check out the first projects I created during my fellowship at <a style={{ color:"whitesmoke"}}href="https://generalassemb.ly/"> General Assembly</a></h2>
                 {

@@ -17,7 +17,7 @@ class AppLayout extends React.Component {
             
             </head>
                 <body  style={{backgroundImage: "linear-gradient(to bottom right, rgba(12, 12, 29, 0.97), rgba(44, 35, 59, 0.7))",display:"flex",flexDirection:"column", textAlign:"center", backgroundRepeat:"no-repeat" , backgroundSize:"cover"}}>
-                    <nav id="navigation" className="navbar sticky-top main-nav" style={{background:"rgba(12, 12, 29, 0.7)", justifyContent:"center", fontFamily:'Raleway', fontSize:"1.3rem", paddingTop:"1rem", paddingBottom:"1rem"}}>
+                    <nav id="navigation" className="navbar sticky-top main-nav" style={{background:"rgba(12, 12, 29, 0.7)", justifyContent:"center", fontFamily:'Raleway', fontSize:"1.3rem", paddingTop:"1rem", paddingBottom:"1rem",boxShadow:"0 2rem 2rem  rgba(245, 245, 245, 0.055)"}}>
                         <a style={{color:"whitesmoke", textDecoration:"none", marginRight:"2.5rem", fontWeight:"bold"}} href="#section1">About</a>
                         <a style={{color:"whitesmoke", textDecoration:"none", fontWeight:"bold", marginRight:"2.5rem"}} href="#section2">Skills</a>
                         <a style={{color:"whitesmoke", textDecoration:"none", fontWeight:"bold", marginRight:"2.5rem"}} href="#section3">Projects</a>
