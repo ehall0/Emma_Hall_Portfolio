@@ -63,7 +63,7 @@ class Index extends React.Component {
                 {
                    this.props.projects.map((project, i) => {
                     return (
-                      <div style={{borderBottom:" solid rgba(44, 35, 59, 0.3))", marginLeft:"8rem", marginRight:"8rem",minWidth:"45rem", backgroundImage:"linear-gradient(to right , rgba(12, 12, 29, 0.97), rgba(44, 35, 59, 0.01))", marginBottom:"1rem"}}class="media">
+                      <div style={{borderBottom:" solid rgba(44, 35, 59, 0.3))", marginLeft:"8rem", marginRight:"8rem",minWidth:"50rem", backgroundImage:"linear-gradient(to right , rgba(12, 12, 29, 0.97), rgba(44, 35, 59, 0.01))", marginBottom:"1rem"}}class="media">
                     <img style={{width:"25rem"}}src={project.image} class="align-self-center mr-3" alt={project.title}/>
                     <div style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"1.3rem", textAlign:"right", paddingTop:"1rem"}} class="media-body">
                       <h5 style={{fontSize:"1.5rem", fontWeight:"bold"}}class="mt-0">{project.title}</h5>
