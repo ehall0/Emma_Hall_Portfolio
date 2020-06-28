@@ -13,6 +13,7 @@ class Index extends React.Component {
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
           </head>
             <section id="section1">
+              <br/>
                 <h1 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"7rem", marginTop:"6rem"}}>Emma Hall</h1>
                 <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"2rem"}}>Full-Stack Web Developer | Austin, Tx</h2>
                 <img style={{filter: "grayscale(100%)" ,width: "13rem", borderRadius:"100%", display:"block", marginLeft:"auto", marginRight:"auto", marginTop:"1.5rem", marginBottom:"1.5rem"}} src="https://ca.slack-edge.com/T0351JZQ0-U0101Q2050T-c604c198d01f-512" alt="Emma Hall" />
@@ -21,6 +22,7 @@ class Index extends React.Component {
                 </div>
              </section>
               <section id="section2">
+                <br/>
                 <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"3rem",fontweight:"bold", marginTop:"3rem"}}>Skills</h2>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style={{marginTop:"2.5rem", marginBottom:"4rem"}}>
                 <div class="carousel-inner">
@@ -55,13 +57,14 @@ class Index extends React.Component {
             </div>
             </section>
             <section id="section3">
+            <br />
             <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"3rem",fontweight:"bold", marginTop:"3rem"}}>Projects</h2>
             <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"1.5rem",fontweight:"bold", marginBottom:"3rem"}}>Check out the first projects I created during my fellowship at <a style={{ color:"whitesmoke"}}href="https://generalassemb.ly/"> General Assembly</a></h2>
                 {
                    this.props.projects.map((project, i) => {
                     return (
-                      <div style={{borderBottom:" solid rgba(44, 35, 59, 0.3))", marginLeft:"8rem", marginRight:"8rem",minWidth:"45rem", backgroundImage:"linear-gradient(to right , rgba(12, 12, 29, 0.97), rgba(44, 35, 59, 0.01))"}}class="media">
-                    <img style={{width:"25rem", marginBottom:"1rem"}}src={project.image} class="align-self-center mr-3" alt={project.title}/>
+                      <div style={{borderBottom:" solid rgba(44, 35, 59, 0.3))", marginLeft:"8rem", marginRight:"8rem",minWidth:"45rem", backgroundImage:"linear-gradient(to right , rgba(12, 12, 29, 0.97), rgba(44, 35, 59, 0.01))", marginBottom:"1rem"}}class="media">
+                    <img style={{width:"25rem"}}src={project.image} class="align-self-center mr-3" alt={project.title}/>
                     <div style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"1.3rem", textAlign:"right", paddingTop:"1rem"}} class="media-body">
                       <h5 style={{fontSize:"1.5rem", fontWeight:"bold"}}class="mt-0">{project.title}</h5>
                       <p>{project.description}</p>
