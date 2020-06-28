@@ -14,11 +14,11 @@ class Index extends React.Component {
           </head>
             <section id="section1">
               <br/>
-                <h1 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"7rem", marginTop:"6rem"}}>Emma Hall</h1>
+                <h1 style={{color:"rgb(200, 200, 200)", fontFamily:'Raleway', fontSize:"7rem", marginTop:"6rem", fontWeight:"bold"}}>Emma Hall</h1>
                 <h2 style={{color:"whitesmoke", fontFamily:'Raleway', fontSize:"2rem"}}>Full-Stack Web Developer | Austin, Tx</h2>
                 <img style={{filter: "grayscale(100%)" ,width: "15rem", borderRadius:"100%", display:"block", marginLeft:"auto", marginRight:"auto", marginTop:"1.5rem", marginBottom:"1.5rem"}} src="https://ca.slack-edge.com/T0351JZQ0-U0101Q2050T-c604c198d01f-512" alt="Emma Hall" />
                 <div style={{width:"30rem", display:"block",marginRight:"auto",marginLeft:"auto"}}>
-                     <p style ={{color:"whitesmoke", textDecoration:"none", fontSize:"1.2rem",fontWeight:"bold", fontFamily:'Raleway' }}>Hi! As a solutions-driven software developer, I take on problems with a creative mindset to deliver efficient and effective solutions. Check out my <a style={{color:"rgba(255, 72, 246)", textDecoration:"none",fontSize:"1.4rem", fontWeight:"bold"}} href="#section3">projects</a> !</p>
+                     <p style ={{color:"whitesmoke", textDecoration:"none", fontSize:"1.3rem",fontWeight:"bold", fontFamily:'Raleway' }}>Hi ! As a solutions-driven software developer, I take on problems with a creative mindset to deliver efficient and effective solutions. Check out my <a style={{color:"rgba(255, 72, 246)", textDecoration:"none",fontSize:"1.4rem", fontWeight:"bold"}} href="#section3">projects</a> !</p>
                 </div>
              </section>
               <section id="section2">
